@@ -20,6 +20,14 @@
         float: right;
         width: 70%;
     }
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    p{
+        font-size: 1em;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -33,13 +41,21 @@
     }
 
     #imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #formulario{
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    p{
+        font-size: 1.1em;
     }
 }
