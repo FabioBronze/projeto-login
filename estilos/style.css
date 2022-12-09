@@ -29,7 +29,7 @@ main{
 
 #login{
     background-color: white;
-    height: 500px;
+    height: 530px;
     width: 260px;
     border-radius: 20px;
     overflow: hidden;
@@ -59,7 +59,7 @@ h1{
 }
 
 p{
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .campo{
@@ -88,7 +88,7 @@ label{
     background-color: #58b6b3;
     font-size: 1em;
     width: calc(100% - 45px);
-    transform: translateY(-13px);
+    transform: translateY(-12px);
     height: 100%;
     border: none;
     border-radius: 8px;
