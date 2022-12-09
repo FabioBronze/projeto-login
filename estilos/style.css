@@ -88,11 +88,11 @@ label{
     background-color: #58b6b3;
     font-size: 1em;
     width: calc(100% - 45px);
-    transform: translateY(-12px);
     height: 100%;
     border: none;
     border-radius: 8px;
     padding: 5px;
+    transform: translateY(-12px);
 }
 
 .campo > input:focus-within{
