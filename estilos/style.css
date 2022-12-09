@@ -64,15 +64,39 @@ p{
 
 .campo{
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     display: block; /* Não tem necessidade pq a div ja é um block */
     width: 100%; /* Não tem necessidade pq são a 100% (são 2 div's) */
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 label{
     display: none;
+}
+
+.campo > span{
+    color:white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+}
+
+.campo > input{
+    background-color: #58b6b3;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    transform: translateY(-13px);
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.campo > input:focus-within{
+    background-color: white;
 }
 
 form > input[type=submit]{
